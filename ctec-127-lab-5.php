@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
-    <title>Lab No. 6 - Temp. Converter</title>
+    <title>Lab No. 5 - Temp. Converter</title>
 </head>
 
 <body>
@@ -48,6 +48,7 @@
     <form method="POST" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>">
         <div class="group">
             <label for="temp">Temperature</label>
+            <!-- You could have also used a Ternary on the line below -->
             <input type="text" value="<?php if (isset($_POST['originaltemp'])) {
                                             echo $_POST['originaltemp'];
                                         }
