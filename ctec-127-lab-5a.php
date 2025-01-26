@@ -75,10 +75,7 @@
                             <label for="temp" class="form-label fw-bold h3 mt-3">Temperature to Convert</label>
                             <br>
                             <!-- You could have also used a Ternary on the line below -->
-                            <input type="text" class="form-control shadow-sm" value="<?php if (isset($_POST['originaltemp'])) {
-                                                                                            echo $_POST['originaltemp'];
-                                                                                        }
-                                                                                        ?>" name="originaltemp" size="14" maxlength="7" id="temp">
+                            <input type="text" class="form-control shadow-sm" value="<?= isset($_POST['originaltemp']) ? $_POST['originaltemp'] : ""; ?>" name="originaltemp" size="14" maxlength="7" id="temp">
                         </div>
                         <div class="mb-3">
                             <label for="originalunit" class="form-label h3 fw-bold">Temperature Unit</label>
@@ -113,7 +110,7 @@
         </div>
         <div class="col-12 mt-5 text-center">
             <footer class="my-5">
-                <p>&copy; 2024 by CTEC 127<br>Student YOUR NAME MUST GO HERE</p>
+                <p>&copy; by CTEC 127<br>Student YOUR NAME MUST GO HERE</p>
             </footer>
         </div>
     </div>
