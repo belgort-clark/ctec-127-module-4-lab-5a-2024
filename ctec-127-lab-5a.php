@@ -19,13 +19,13 @@
     // function to calculate converted temperature
     function convertTemp($temp, $unit1, $unit2)
     {
-        // conversion formulas
-        // Celsius to Fahrenheit = T(°C) × 9/5 + 32
-        // Celsius to Kelvin = T(°C) + 273.15
-        // Fahrenheit to Celsius = (T(°F) - 32) × 5/9
-        // Fahrenheit to Kelvin = (T(°F) + 459.67)× 5/9
-        // Kelvin to Fahrenheit = T(K) × 9/5 - 459.67
-        // Kelvin to Celsius = T(K) - 273.15
+        // Conversion formulas
+        // - Celsius to Fahrenheit = T(°C) × 9/5 + 32
+        // - Celsius to Kelvin = T(°C) + 273.15
+        // - Fahrenheit to Celsius = (T(°F) - 32) × 5/9
+        // - Fahrenheit to Kelvin = (T(°F) + 459.67)× 5/9
+        // - Kelvin to Fahrenheit = T(K) × 9/5 - 459.67
+        // - Kelvin to Celsius = T(K) - 273.15
 
         // You need to develop the logic to convert the temperature based on the selections and input made
 
